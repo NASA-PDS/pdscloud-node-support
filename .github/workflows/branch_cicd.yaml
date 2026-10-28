@@ -45,7 +45,7 @@ jobs:
                     python-version: '3.9'
             -
                 name: 💵 Python Cache
-                uses: actions/cache@v3
+                uses: actions/cache@v6
                 with:
                     path: ~/.cache/pip
                     # The "key" used to indicate a set of cached files is the operating system runner
